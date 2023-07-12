@@ -1,0 +1,136 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 0px;
+  max-width: 100%;
+}
+div.intro {
+  padding-left: 30px;
+  max-width: 100%;
+}
+img {
+  width: 25%;
+  height: auto;
+  margin-top: 7px;
+  border-radius: 88px;
+}
+div.intro1 {
+  padding-left: 0px;
+  max-width: 100%;
+  line-height: 0.5;
+  text-align: justify;
+}
+
+.grid-summary {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  background-color: white;
+  padding-left: 0px;
+  max-width: 100%;
+}
+
+.grid-exper {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  background-color: white;
+  padding-left: 0px;
+  max-width: 100%;
+}
+.grid-exper-detail {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  background-color: white;
+  padding-left: 0px;
+  max-width: 100%;
+}
+.date {
+  padding-left: 30px;
+  max-width: 100%;
+}
+.topic {
+  padding-left: 30px;
+  max-width: 100%;
+}
+.grid-ilpc {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  background-color: white;
+  padding-left: 0px;
+  max-width: 100%;
+}
+.grid-edu {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  background-color: white;
+  max-width: 100%;
+}
+.grid-table {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  background-color: white;
+  padding-left: 0px;
+  max-width: 100%;
+}
+.table {
+  max-width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: 53px;
+  margin-right: 24px;
+}
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+}
+.grid-skills {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 7px;
+  background-color: white;
+  max-width: 100%;
+  margin-top: 0px;
+  padding-left: 52px;
+  height: auto;
+}
+.table1 td {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 30px;
+  text-align: center;
+}
+.grid-ski {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  max-width: 100%;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+.grid-ski > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+  .grid-ski {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px;
+    max-width: 100%;
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+}
